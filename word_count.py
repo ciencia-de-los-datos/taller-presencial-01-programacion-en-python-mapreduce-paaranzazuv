@@ -116,6 +116,7 @@ def save_output(output_directory, sequence):
 
 
 
+
 #print (sequence)
 # La siguiente función crea un archivo llamado _SUCCESS en el directorio
 # entregado como parámetro.
