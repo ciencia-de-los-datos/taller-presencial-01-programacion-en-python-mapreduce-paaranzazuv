@@ -117,6 +117,9 @@ def save_output(output_directory, sequence):
 
 
 
+
+
+
 #print (sequence)
 # La siguiente función crea un archivo llamado _SUCCESS en el directorio
 # entregado como parámetro.
@@ -124,6 +127,7 @@ def save_output(output_directory, sequence):
 def create_marker(output_directory):
     with open (output_directory + "/_SUCCES", "w") as file:
         file.write("")
+
 
 
 
