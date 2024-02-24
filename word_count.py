@@ -20,7 +20,7 @@ import os.path
 def load_input (input_directory):
     sequence = []
     filenames = glob.glob(input_directory + "/*")
-    with fileinput. input(files= filenames, encoding= "utf-8") as f: 
+    with fileinput. input(files= filenames) as f: 
         for line in f:
             sequence.append((fileinput.filename(),line))
     return sequence
